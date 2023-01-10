@@ -1,0 +1,14 @@
+h1 {
+    font-size: xx-large;
+    margin-top: 50%;
+}
+
+p {
+    font-size: large;
+}
+
+h1, p {
+    display: flex;
+    justify-content: center;
+}
+
