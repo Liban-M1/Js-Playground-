@@ -12,3 +12,7 @@ h1, p {
     justify-content: center;
 }
 
+body {
+    background-color: grey;
+}
+
