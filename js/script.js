@@ -1,67 +1,53 @@
-// Question 1
-var requiredName = "Gertrude";
-var suppliedName = "GERTRUDE";
+// Quesiton 1
 
-if ((requiredName.toLocaleLowerCase.length) === (suppliedName.toLowerCase.length)) {
-    console.log("Same length in characters");
-}
+var winningNumbers = [1, 76, 2, 78, 16, 7];
 
+console.log(winningNumbers[2]);
 
 // Question 2
-var username = "myusername";
 
-if ((username.length <= 4) || (username.length >= 10)) {
-    console.log("Accepted username");
+var vegetables = ["rice", "potatoes", "porridge", "cake", "spinach"];
+
+vegetables.push("peas")
+console.log(vegetables.length);
+
+// Question 3
+
+var randomThings = ["pumpkin", false, 23, true, "tomato"];
+
+for (var i = 0; i < randomThings.length; i++) {
+    var things = randomThings[i]
+    console.log(things);
 }
 
-else {
+// Question 4
 
-if ((username.length <= 3)) {
-    console.log("Too few characters");
+var moreThings = [14, "cat", true, 29, "fox", true, 34, 19];
+
+var numberValues = moreThings.filter(element => typeof element === "number");
+
+console.log(numberValues);
+
+// Question 5
+
+var ingredients = ["water", "flour", "toothpaste", "fish lips"];
+
+var ingredients1 = ingredients.sort();
+
+for (var o = 0; o < ingredients1.length; o++) {
+    var ingredients2 = ingredients1[o]
+    console.log(ingredients2);
 }
 
-if ((username.length >= 11)) {
-    console.log("Too many characters");
-}
-}
+console.log(ingredients1);
 
-// Qusetion 3 
-var invoicePaid = true;
-var productDispatched = false;
-var customerHasSigned = false;
+// Question 6
 
-if ((invoicePaid === true) && (productDispatched === false) && (customerHasSigned === false)) {
-    console.log("Order complete");
-}
+var characters = ["Gob", "Michael", "George Michael", "Lindsay", "Buster", "Maeby", "Tobias", "Lucille"];
 
-else {
-    if (!invoicePaid) {
-        console.log("Invoice not paid")
+for (var p = 0; p < characters.length; p++) {
+
+    if (p % 2 === 1) {
+        console.log(characters[p]);
     }
-
-    if (!productDispatched) {
-        console.log("Product Has dispatched")
-    }
-
-    if (!customerHasSigned) {
-        console.log("Customer has signed")
-    }
-}
-
-// Qusetion 4
-if (!invoicePaid || !productDispatched || !customerHasSigned) {
-    
-    if (!invoicePaid) {
-        console.log("Invoice is not paid")
-    }
-    if (!productDispatched) {
-        console.log("Product Has dispatched")
-    }
-    if (!customerHasSigned) {
-        console.log("Customer has signed")
-    }
-}
-
-else {
-    console.log("Order Complete")
 }
