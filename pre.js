@@ -315,3 +315,208 @@ for (var p = 0; p < characters.length; p++) {
 }
 
 */
+
+task (5)
+
+/*
+
+// Question 1
+var product = {
+	name: "Chicken feet",
+	price: 149.99,
+};
+
+console.log(product.price);
+
+// Question 2
+var animals = [
+	{
+		type: "cat",
+		colour: "black",
+	},
+	{
+		type: "elephant",
+		colour: "grey",
+	},
+	{
+		type: "dog",
+		colour: "brown",
+	},
+	{
+		type: "zebra",
+		colour: "black and white",
+	},
+];
+
+
+for (var i = 0; i < animals.length; i++) {
+    var animalsColour = animals[i].colour;
+    console.log(animalsColour);
+}
+
+// Question 3
+var dinnerOptions = [
+	{ name: "Fish and Dips", price: 11.95, onSpecial: true },
+	{ name: "Bacon and Frogs", price: 12.99, onSpecial: false },
+	{ name: "Mince Flies", price: 19.0, onSpecial: true },
+];
+
+for (var i = 0; i < dinnerOptions.length; i++) {
+    var isOnSpecial = dinnerOptions[i].onSpecial;
+    var productName = dinnerOptions[i].name;
+    
+    if (isOnSpecial === true) {
+        console.log(productName);
+    }
+}
+
+// Question 4
+var people = [
+	{
+		firstName: "Burt",
+		lastName: "Smacharach",
+		age: 35,
+	},
+	{
+		firstName: "Elvis",
+		lastName: "Deadly",
+		age: 55,
+	},
+	{
+		firstName: "Susan",
+		lastName: "Sarongson",
+		age: 42,
+	},
+	{
+		firstName: "Big",
+		lastName: "Gabe",
+		age: 20,
+	},
+];
+
+for (var i = 0; i < people.length; i++) {
+    var firstLast = people[i].firstName + " " + people[i].lastName;
+    var ofAge = people[i].age;
+
+    if (ofAge >= 20 && ofAge <= 50) {
+        console.log(firstLast)
+    }
+    
+    
+}
+
+// Question 5 
+var products = [
+	{
+		name: "Elephant eggs",
+		price: 45.0,
+	},
+	{
+		name: "Bucket of water",
+		price: 459.99,
+	},
+	{
+		name: "4 cabbages",
+		price: 500.95,
+	},
+];
+
+
+
+for (var i = 0; i < products.length; i++) {
+    var productInfo = products[i].name + " - " + products[i].price;
+    productContainer.innerHTML = productContainer.innerHTML + "<li>" + productInfo + "<li>";
+
+}
+
+console.log(productInfo)
+
+*/
+
+task (6)
+
+/*
+// Questions 1
+const instrument = "guitar";
+console.log(instrument);
+
+// Question 2
+const button = document.querySelector("button.login");
+console.dir(button);
+
+// Question 3
+const instruments = [
+    {
+        type: "guitar",
+        colour: "red",
+    },
+    {
+        type: "piano",
+        colour: "black",
+    },
+];
+
+console.table(instruments);
+
+// Question 4 
+const name = "Percival";
+let age = 13;
+
+// Question 5
+let total = 0;
+total = total + 10;
+
+console.log(total);
+
+// Question 6 
+for (let i = 0; i <= 5; i++) {
+    console.log(i);
+}
+
+// Question 7
+const firstName = `Florence`;
+
+const introduction = `Hello, my name is ${firstName}.`;
+
+console.log(introduction);
+
+// Question 8
+const title = "Big Technical Event";
+
+const whatToHave = "good time";
+
+const welcome = `Welcome!
+
+This ${title} is starting today.
+
+Have a ${whatToHave}!`;
+
+console.log(welcome);
+
+// Question 9
+const car = {
+    "paint-colour": "red",
+    "number of wheels": 3
+};
+
+console.log(car["paint-colour"]);
+console.log(car["number of wheels"]);
+
+// Question 10 
+const product = {
+    name: "Chicken Lips",
+    price: 35,
+    expired: false
+	
+}
+
+function getExpired(product) {
+	if (product.expired === true) {
+		return "This product has expired";
+	} else {
+		return "This product has not expired";
+	}
+}
+
+console.log(getExpired(product));
+*/
