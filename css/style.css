@@ -1,18 +1,9 @@
-h1 {
-    font-size: xx-large;
-    margin-top: 50%;
+.content {
+    padding: 1rem;
+    border: 1px solid lightgrey;
 }
 
-p {
-    font-size: large;
+.content-item {
+    text-transform: uppercase;
+    color: green;
 }
-
-h1, p {
-    display: flex;
-    justify-content: center;
-}
-
-body {
-    background-color: grey;
-}
-
